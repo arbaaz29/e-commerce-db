@@ -6,11 +6,11 @@
 -- Generation Time: Oct 31, 2023 at 09:30 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
-DROP USER IF EXISTS 'e_comm_app'@'%';
-CREATE USER 'e_comm_app'@'%' IDENTIFIED WITH AWSAuthenticationPlugin AS 'RDS';
-GRANT SELECT, INSERT, UPDATE, DELETE ON ecomdb.* TO 'e_comm_app'@'%';
-ALTER USER 'e_comm_app'@'%' REQUIRE SSL;
-FLUSH PRIVILEGES;
+-- DROP USER IF EXISTS 'e_comm_app'@'%';
+-- CREATE USER 'e_comm_app'@'%' IDENTIFIED WITH AWSAuthenticationPlugin AS 'RDS';
+-- GRANT SELECT, INSERT, UPDATE, DELETE ON ecomdb.* TO 'e_comm_app'@'%';
+-- ALTER USER 'e_comm_app'@'%' REQUIRE SSL;
+-- FLUSH PRIVILEGES;
 
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
